@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+}
+
+.app {
+  background-image: linear-gradient(rgba(0, 0, 0), rgba(0, 0, 0, 0.85)),
+    url("./background.jpg");
+  background-size: cover;
+  padding: 0 5rem;
+}
+
+.app__header {
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+  font-weight: 400;
+}
+
+.app__container {
+  padding: 2rem;
+  background: linear-gradient(to bottom right, #2d4f8d, #60052f);
+}
